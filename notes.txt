@@ -1,0 +1,62 @@
+Next JS
+=======
+Installation
+Project Structure
+Routing
+-------
+	Page Routing
+	Nested Routing
+	Dynamic Routing
+	Nested Dynamic Routing
+	Catch-all-segments
+	404 page not Found
+
+File Colocation ---> Components and not default export functions
+private Location ---> prefix folder name add underscore(_)
+Route Group ---> (auth) inside folder login, register, forgot password call /login
+Layouts
+Nested Layouts
+Route Group Layout
+Routing Meta data
+	1)Static Meta Data
+	2)Dynamic Meta Data
+title metadata
+	1)default ---> main layout inside assign title to apply all pages title
+	2)template ---> main layout inside add title value '%s | somethig...', page inside assign meta title replace for %s in browser
+	3)absolute ----> absolute for assign the page inside for object type in meta function. this method is avoid template changing
+File Based Routing ---> replace-->  used to navigate in initial route path
+Active Link
+Navigate Programmatically ---> useRouter --> next/navigation
+	1)route.push()
+	2)route.replace()
+	3)route.back()
+	4)route.forward()
+templates ---> instance state value maintaing
+loading UI ---> loading handling
+error ---> error handling
+
+components Hierarchy
+--------------------
+layout.js
+templates.js
+error.js
+loading.js
+not-found.js
+page.js
+
+Error handling
+Error recovery from
+Handle Nested errors
+Handling error in layouts
+
+parallel routs
+unmatched Routs ---> using default.tsx once navigate nested route of archive folder then refersh site browser tell the 404 error. This error sorted by using default.tsx
+conditional routing
+Intercepting Routes ---> (.) to match segments on the same lavel, (..) to match segments one lavel above, (..)(..) to match segments two lavel above, (...) to match segments form the root app directory
+parallel Intercept Routing  --->  complete Gallery Projects
+
+-----------------
+Basic route Handle
+Handle GET Request using vs code Extension Thunder client
+
+

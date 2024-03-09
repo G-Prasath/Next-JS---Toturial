@@ -5,6 +5,7 @@ const layout = (props: {children: React.ReactNode, modal: React.ReactNode}) => {
     <div>
         {props.modal}
         {props.children}
+        
     </div>
   )
 }
