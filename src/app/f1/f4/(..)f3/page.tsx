@@ -2,7 +2,9 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>This Home Page</div>
+    <div>
+        <h1>(..) F3 page Navigates</h1>
+    </div>
   )
 }
 

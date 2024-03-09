@@ -1,8 +1,9 @@
+import Card from '@/ui/card'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>This Home Page</div>
+    <Card>Metrics</Card>
   )
 }
 
