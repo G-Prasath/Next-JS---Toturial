@@ -59,4 +59,21 @@ parallel Intercept Routing  --->  complete Gallery Projects
 Basic route Handle
 Handle GET Request using vs code Extension Thunder client
 
+GET, POST, PATCH, DELETE For the json Data
 
+url Query Paramenters
+Redirecting Route Handler
+headers in route handlers
+	Request Header --> User-Agent, Accept, Authorization
+	Response Header --> Content-Type
+cookies Handler
+cache Handler ---> export const dynamic = "force-dynamic";
+
+Route Definition
+Pages and layouts
+Dynamic Routes
+Route groups
+Linking and Navigation
+Handling errors in routes
+parallel and intercepting routes
+route handlers and middleware
